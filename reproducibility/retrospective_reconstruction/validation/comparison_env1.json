@@ -1,0 +1,197 @@
+{
+  "per_replicacao": {
+    "name": "per_replicacao",
+    "cols_hist": [
+      "method",
+      "q_nominal",
+      "L",
+      "DMA_r",
+      "MAE_r",
+      "n_invalid",
+      "replication_id",
+      "Delta_r"
+    ],
+    "cols_retro": [
+      "method",
+      "q_nominal",
+      "L",
+      "DMA_r",
+      "MAE_r",
+      "n_invalid",
+      "replication_id",
+      "Delta_r"
+    ],
+    "same_columns_and_order": true,
+    "rows_hist": 48000,
+    "rows_retro": 48000,
+    "dup_keys_hist": 0,
+    "dup_keys_retro": 0,
+    "only_in_hist": 0,
+    "only_in_retro": 0,
+    "same_row_order": true,
+    "columns": {
+      "DMA_r": {
+        "n": 48000,
+        "exact": 48000,
+        "fp_only": 0,
+        "effective": 0,
+        "max_abs_diff": 0.0
+      },
+      "MAE_r": {
+        "n": 48000,
+        "exact": 48000,
+        "fp_only": 0,
+        "effective": 0,
+        "max_abs_diff": 0.0
+      },
+      "n_invalid": {
+        "n": 48000,
+        "exact": 48000,
+        "fp_only": 0,
+        "effective": 0,
+        "max_abs_diff": 0.0
+      },
+      "Delta_r": {
+        "n": 48000,
+        "exact": 48000,
+        "fp_only": 0,
+        "effective": 0,
+        "max_abs_diff": 0.0
+      }
+    },
+    "all_exact": true,
+    "any_effective_divergence": false
+  },
+  "metricas_finais": {
+    "name": "metricas_finais",
+    "cols_hist": [
+      "method",
+      "q_nominal",
+      "L",
+      "DMA",
+      "MAE",
+      "DP_Rep",
+      "MCSE_DMA",
+      "MCSE_MAE",
+      "n_rep"
+    ],
+    "cols_retro": [
+      "method",
+      "q_nominal",
+      "L",
+      "DMA",
+      "MAE",
+      "DP_Rep",
+      "MCSE_DMA",
+      "MCSE_MAE",
+      "n_rep"
+    ],
+    "same_columns_and_order": true,
+    "rows_hist": 24,
+    "rows_retro": 24,
+    "dup_keys_hist": 0,
+    "dup_keys_retro": 0,
+    "only_in_hist": 0,
+    "only_in_retro": 0,
+    "same_row_order": false,
+    "columns": {
+      "DMA": {
+        "n": 24,
+        "exact": 20,
+        "fp_only": 4,
+        "effective": 0,
+        "max_abs_diff": 1.1102230246251565e-16
+      },
+      "MAE": {
+        "n": 24,
+        "exact": 18,
+        "fp_only": 6,
+        "effective": 0,
+        "max_abs_diff": 1.1102230246251565e-16
+      },
+      "DP_Rep": {
+        "n": 24,
+        "exact": 24,
+        "fp_only": 0,
+        "effective": 0,
+        "max_abs_diff": 0.0
+      },
+      "MCSE_DMA": {
+        "n": 24,
+        "exact": 24,
+        "fp_only": 0,
+        "effective": 0,
+        "max_abs_diff": 0.0
+      },
+      "MCSE_MAE": {
+        "n": 24,
+        "exact": 24,
+        "fp_only": 0,
+        "effective": 0,
+        "max_abs_diff": 0.0
+      },
+      "n_rep": {
+        "n": 24,
+        "exact": 24,
+        "fp_only": 0,
+        "effective": 0,
+        "max_abs_diff": 0.0
+      }
+    },
+    "all_exact": false,
+    "any_effective_divergence": false
+  },
+  "delta_pareado": {
+    "name": "delta_pareado",
+    "cols_hist": [
+      "q_nominal",
+      "L",
+      "Delta_bar",
+      "MCSE_Delta"
+    ],
+    "cols_retro": [
+      "q_nominal",
+      "L",
+      "Delta_bar",
+      "MCSE_Delta"
+    ],
+    "same_columns_and_order": true,
+    "rows_hist": 12,
+    "rows_retro": 12,
+    "dup_keys_hist": 0,
+    "dup_keys_retro": 0,
+    "only_in_hist": 0,
+    "only_in_retro": 0,
+    "same_row_order": false,
+    "columns": {
+      "Delta_bar": {
+        "n": 12,
+        "exact": 8,
+        "fp_only": 4,
+        "effective": 0,
+        "max_abs_diff": 1.1102230246251565e-16
+      },
+      "MCSE_Delta": {
+        "n": 12,
+        "exact": 12,
+        "fp_only": 0,
+        "effective": 0,
+        "max_abs_diff": 0.0
+      }
+    },
+    "all_exact": false,
+    "any_effective_divergence": false
+  },
+  "structure": {
+    "rows_retro": 48000,
+    "n_replication_ids": 2000,
+    "n_conditions": 24,
+    "n_invalid_sum_retro": 0,
+    "n_invalid_sum_hist": 0,
+    "dup_keys": 0
+  },
+  "tolerance": {
+    "atol": 1e-12,
+    "rtol": 1e-09
+  }
+}

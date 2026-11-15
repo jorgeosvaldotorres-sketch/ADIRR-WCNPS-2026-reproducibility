@@ -1,0 +1,71 @@
+{
+  "A": {
+    "notebook_sha256_ok": true,
+    "cell_sha256": {
+      "1": "6abc0272016944764bc9cefc471ca0bd6470140e6f3914aa7f34ff95f830b4a1",
+      "3": "5634dc85d6ac848096febf601ba3b806be95ad55c5986296dd600f72537ceeb7",
+      "5": "ca8bd4417fd8008120532c9cf1b3239f940b3d48feaa62c821b6b45b59e63977",
+      "7": "eeeb2575ba39aedb8682acbe3387b5d73c2770981b629fda31147d90ef0c42e2",
+      "9": "28eb1a4e5a6fdb6183be3e9144ff1e8c68698bd43fd9c12745487133b42c9f02",
+      "11": "fa86d0e079ead28caa71dc3c963555583f33ba8c9bae9c28a5e40973f73d79c4",
+      "13": "104a82aefd6abcb939ed273986937f38cab208e4e8bfecfeff82a3ae37c16ed6",
+      "15": "cf6581b3b6f983f105335db0ad16eb9e716e27ac444518d6bfe1ccaf64ae6f4c",
+      "17": "dbedbad4ee643f2ccf2aa27ee86df911246ad14cabdc96d5529841b32a7d7885",
+      "19": "ce706e6ec4f47445a890e2a872fa0346029e7812fc245161bdfee5919e76bc4a",
+      "21": "cbdba1c2a097619d5b498d1022e8a7768dfa460eb9798a1006d7ea642f542a7a",
+      "23": "436660854c3acd347db614bc1bd6f0c7d8bbd4e775513fcfa3d37cbeb1b6c96a",
+      "25": "a1a7ba9a4ceff127a4f1acd14e1c66471520e8782bd1e1615ebedfe2959c1a76"
+    },
+    "config_matches_freeze_manifest": true,
+    "frozen_function_names": [
+      "ProtocolConfig",
+      "add_o100_reference",
+      "assign_d2_windows",
+      "attach_observability",
+      "build_replication_through_d4",
+      "check_d6_contract",
+      "check_pre_d3_invariants",
+      "child_rng",
+      "generate_d0_events",
+      "generate_uniform_stream",
+      "mcse",
+      "nested_observation_masks",
+      "prepare_m1_input",
+      "prepare_m2_input",
+      "run_d3",
+      "run_d4",
+      "run_d6",
+      "run_d6_over_grid",
+      "summarize_replication_metrics",
+      "test_m1_uncertainty_and_rho_structural_at_o40",
+      "test_m2_uncertainty_always_zero_and_rho_valid",
+      "test_o100_m1_equals_m2",
+      "test_rho_bounds",
+      "validate_d1"
+    ],
+    "frozen_names_redefined_in_retro_code": {
+      "retro_reproduction.py": [],
+      "compare_with_historical.py": [],
+      "frozen_loader.py": []
+    },
+    "seed_policy_ok": true
+  },
+  "B": {
+    "counts": {
+      "reps": 20,
+      "o100_m1_eq_m2": 20,
+      "m2_unc0_valid": 20,
+      "m1_struct_o40": 20,
+      "rho_bounds": 20,
+      "nested_masks": 20,
+      "same_opportunities_windows": 20,
+      "m2_neutral_count": 20,
+      "m1_no_neutral": 20,
+      "m2_rho_formula": 20,
+      "invalid_handling": 20
+    },
+    "failures": []
+  },
+  "pass_A": true,
+  "pass_B": true
+}
