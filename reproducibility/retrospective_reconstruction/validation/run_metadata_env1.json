@@ -1,0 +1,38 @@
+{
+  "retrospective": true,
+  "R": 2000,
+  "elapsed_s": 146.09539651870728,
+  "procs": 4,
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "platform": "Linux-6.18.44-fc-v470-x86_64-with-glibc2.39",
+  "notebook_cell_sha256": {
+    "1": "6abc0272016944764bc9cefc471ca0bd6470140e6f3914aa7f34ff95f830b4a1",
+    "3": "5634dc85d6ac848096febf601ba3b806be95ad55c5986296dd600f72537ceeb7",
+    "5": "ca8bd4417fd8008120532c9cf1b3239f940b3d48feaa62c821b6b45b59e63977",
+    "7": "eeeb2575ba39aedb8682acbe3387b5d73c2770981b629fda31147d90ef0c42e2",
+    "9": "28eb1a4e5a6fdb6183be3e9144ff1e8c68698bd43fd9c12745487133b42c9f02",
+    "11": "fa86d0e079ead28caa71dc3c963555583f33ba8c9bae9c28a5e40973f73d79c4",
+    "13": "104a82aefd6abcb939ed273986937f38cab208e4e8bfecfeff82a3ae37c16ed6",
+    "15": "cf6581b3b6f983f105335db0ad16eb9e716e27ac444518d6bfe1ccaf64ae6f4c",
+    "17": "dbedbad4ee643f2ccf2aa27ee86df911246ad14cabdc96d5529841b32a7d7885",
+    "19": "ce706e6ec4f47445a890e2a872fa0346029e7812fc245161bdfee5919e76bc4a",
+    "21": "cbdba1c2a097619d5b498d1022e8a7768dfa460eb9798a1006d7ea642f542a7a",
+    "23": "436660854c3acd347db614bc1bd6f0c7d8bbd4e775513fcfa3d37cbeb1b6c96a",
+    "25": "a1a7ba9a4ceff127a4f1acd14e1c66471520e8782bd1e1615ebedfe2959c1a76"
+  },
+  "master_seed": 20260922,
+  "T": 1000,
+  "L": [
+    25,
+    50,
+    100
+  ],
+  "q": [
+    1.0,
+    0.8,
+    0.6,
+    0.4
+  ]
+}

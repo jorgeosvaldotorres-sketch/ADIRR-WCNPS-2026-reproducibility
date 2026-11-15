@@ -1,0 +1,4 @@
+per_replicacao all_exact= True effective_div= False {'DMA_r': (48000, 0, 0, 0.0), 'MAE_r': (48000, 0, 0, 0.0), 'n_invalid': (48000, 0, 0, 0.0), 'Delta_r': (48000, 0, 0, 0.0)}
+metricas_finais all_exact= False effective_div= False {'DMA': (20, 4, 0, 1.1102230246251565e-16), 'MAE': (18, 6, 0, 1.1102230246251565e-16), 'DP_Rep': (24, 0, 0, 0.0), 'MCSE_DMA': (24, 0, 0, 0.0), 'MCSE_MAE': (24, 0, 0, 0.0), 'n_rep': (24, 0, 0, 0.0)}
+delta_pareado all_exact= False effective_div= False {'Delta_bar': (8, 4, 0, 1.1102230246251565e-16), 'MCSE_Delta': (12, 0, 0, 0.0)}
+{'rows_retro': 48000, 'n_replication_ids': 2000, 'n_conditions': 24, 'n_invalid_sum_retro': 0, 'n_invalid_sum_hist': 0, 'dup_keys': 0}
